@@ -1,0 +1,9 @@
+package problem_A_intersection;
+
+public class NodeListHelper {
+	public static boolean booleanisIntersection(Node listOne, Node listTwo) {
+		
+		
+		return false; 
+	}
+}

@@ -1,0 +1,11 @@
+package problem_A_intersection;
+
+import java.util.LinkedList;
+
+public class NodeListHelper {
+	public boolean booleanisIntersection(Node listOne, Node listTwo) {
+		
+		
+		return false; 
+	}
+}

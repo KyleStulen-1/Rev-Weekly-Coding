@@ -1,0 +1,46 @@
+package test_problem_A_intersection;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import problem_A_intersection.Node;
+import problem_A_intersection.NodeListHelper;
+
+class LinkedListIntersectionTest {
+
+	@Test
+	public void canary() {
+		assertTrue(true);
+	}
+	
+	@Test 
+	public void testIsIntersecting_intersectingLists() {
+		Node currentNode = null;
+		Node node5 = null;
+		
+		Node head1 = new Node(0);
+		currentNode = head1;
+		for (int i = 1; i < 10; i++) {
+			currentNode.setNext(new Node (i));
+			currentNode = currentNode.getNext();
+			if (i == 5) {
+				node5 = currentNode;
+			}
+		}
+		Node head2 = new Node(0);
+		currentNode = head2;
+		for (int i = 0; i < 10; i++) {
+			if (i == 5) {
+				currentNode.setNext(node5);
+				currentNode = currentNode.getNext();
+			} else {
+				currentNode.setNext(new Node(i));
+				currentNode = currentNode.getNext();
+			}
+		}
+		assertTrue(head1, head2);
+		
+	}
+
+}

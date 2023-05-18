@@ -1,0 +1,22 @@
+package test_problem_A_intersection;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import problem_A_intersection.Node;
+
+class LinkedListIntersectionTest {
+
+	@Test
+	public void canary() {
+		assertTrue(true);
+	}
+	
+	@Test 
+	public void testIsIntersecting() {
+		Node head1 = new Node(0);
+		head1 
+	}
+
+}
