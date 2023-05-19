@@ -18,8 +18,7 @@ public class NodeListHelper {
 		return false; 
 	}
 	
-	//https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_tortoise_and_hare
-	public static Node isLooping(Node listOneHead) {
+	public static boolean isLooping(Node listOneHead, Node listTwoHead) {
 		
 		
 		

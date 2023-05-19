@@ -1,0 +1,18 @@
+package test_problem_B_Loop_Detection;
+
+import org.junit.Test;
+
+public class LinkedListLoopingTest {
+	
+	@Test
+	public void testIsLooping_loopingLists() {
+		
+		assertFalse(true);
+	}
+	
+	@Test
+	public void testIslooping_notLoopingLists() {
+		
+	}
+
+}

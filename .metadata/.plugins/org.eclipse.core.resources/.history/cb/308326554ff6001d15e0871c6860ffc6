@@ -1,0 +1,24 @@
+package test_problem_B_Loop_Detection;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import problem_A_intersection.Node;
+import problem_A_intersection.NodeListHelper;
+
+public class LinkedListLoopingTest {
+	
+	@Test
+	public void testIsLooping_loopingLists() {
+		
+		assertFalse(true);
+	}
+	
+	@Test
+	public void testIslooping_notLoopingLists() {
+		
+		assertFalse(true);
+	}
+
+}

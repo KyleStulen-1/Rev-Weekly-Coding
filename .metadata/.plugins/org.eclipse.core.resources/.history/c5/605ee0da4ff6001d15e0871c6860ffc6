@@ -23,6 +23,6 @@ public class NodeListHelper {
 		
 		
 		
-		return new Node(-1);
+		return null;
 	}
 }
