@@ -47,6 +47,6 @@ public class NodeListHelper {
 			hare = hare.getNext();
 		}
 		
-		return tortoise;
+		return new Node(-1);
 	}
 }

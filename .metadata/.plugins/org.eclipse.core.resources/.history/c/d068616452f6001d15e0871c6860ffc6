@@ -42,11 +42,8 @@ public class NodeListHelper {
 		}
 		
 		tortoise = listHead; 
-		while (tortoise != hare) {
-			tortoise = tortoise.getNext();
-			hare = hare.getNext();
-		}
 		
-		return tortoise;
+		
+		return new Node(-1);
 	}
 }
